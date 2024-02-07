@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AnimalTest {
+public class AnimalTest {
 
     @Test
     public void siElAnimalEsPesado(){
-        Animal caballo = new Animal("caballo", "grande", 500);
+        Animal caballo = new Animal("caballo", "grande", 2500);
         Animal perro = new Animal("perro", "mediano", 20);
 
         boolean esPesado = caballo.esPesado();
