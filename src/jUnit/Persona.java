@@ -28,7 +28,7 @@ public class Persona {
 
     // chequeamos que la persona sea mayor a 18 años
     public boolean esMayor(){
-        return edad > 18;
+        return edad >= 18;
     }
 
     //chequeamos la cantidad de letras del nombre
