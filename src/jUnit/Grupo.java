@@ -7,7 +7,7 @@ public class Grupo {
 
     private List<Persona> personas;
 
-    public Grupo(List<Persona> personas){
+    public Grupo() {
         this.personas = new ArrayList<>();
     }
 
