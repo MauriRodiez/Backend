@@ -4,24 +4,7 @@ import java.time.LocalDate;
 
 public abstract class ProcesadorPagos {
 
-    public String procesarPago(Tarjeta tarjeta, double importe){
-
-        String mensaje = "";
-
-        if(tarjeta instanceof Credito){
-            procesarAutorizacion(tarjeta);
-            validarfecha(tarjeta);
-            mensaje = "Se realizo el pago correctamente con la tarjeta " + tarjeta.getNumeroDelFrente() + " por un monto de " + importe;
-        } else if (tarjeta instanceof Debito) {
-            procesarAutorizacion(tarjeta);
-            validarfecha(tarjeta);
-            mensaje = "Se realizo el pago correctamente con la tarjeta " + tarjeta.getNumeroDelFrente() + " por un monto de " + importe;
-        } else {
-            mensaje = "No es posible realizar la autorización del pago";
-        }
-
-        return mensaje;
-    }
+    protected abstract String procesarPago(Tarjeta tarjeta, double importe);
 
     public boolean validarfecha(Tarjeta tarjeta){
 
@@ -37,6 +20,5 @@ public abstract class ProcesadorPagos {
         }
         return fechaValidada;
     }
-    protected abstract boolean procesarAutorizacion(Tarjeta tarjeta);
 
 }

@@ -1,9 +1,25 @@
 package Patrones.templateMethod.Practicas.Pagos;
 
-public class ProcesadorDebito extends ProcesadorPagos{
+public class ProcesadorDebito extends ProcesadorPagos {
 
     @Override
-    protected boolean procesarAutorizacion(Tarjeta tarjeta) {
-        return false;
+    protected String procesarPago(Tarjeta tarjeta, double importe) {
+        String mensaje = "";
+        boolean autorizacion = false;
+        boolean fechaValida = validarfecha(tarjeta);
+
+        if(importe < ((Debito) tarjeta).getSaldodisponible()){
+            autorizacion = true;
+        }
+
+        if(tarjeta instanceof Credito && fechaValida && autorizacion){
+            if(importe < ((Credito) tarjeta).getLimite()){
+                mensaje = "El pago es procesado con la tarjeta Nº " + tarjeta.getNumeroDelFrente() + " y un valor de " + importe + " pesos";
+            } else {
+                mensaje = "No es posible procesar el pago, se excede el limite de la tarjeta";
+            }
+        }
+        return mensaje;
     }
+
 }
