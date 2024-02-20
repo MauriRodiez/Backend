@@ -35,3 +35,31 @@ java.lang.ArithmeticException: / by zero
 [2024-02-1912:48:29] [ %-5] [TestAnimal:26] La edad del leon Bom es incorrecta
 [2024-02-1912:48:29] [ %-5] [Tigre:32] El tigreRamon esta corriendo
 [2024-02-1912:48:29] [ %-5] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-2014:58:03] [ %-5] [TestLog:7] Empezamos nuestro metodo MAIN
+[2024-02-2014:58:03] [ %-5] [TestLog:12] Error por dividir por cero 
+java.lang.ArithmeticException: / by zero
+	at Logger.TestLog.main(TestLog.java:10)
+[2024-02-2014:58:03] [ %-5] [TestLog:14] Advertencia el metodo MAIN esta por finalizar
+[2024-02-2014:58:03] [ %-5] [TestLog:15] Esto va a mostrarse solo si el infoLogger esta en DEBUG
+[2024-02-2014:58:03] [ %-5] [TestLog:16] Finalizamos el thread MAIN
+[2024-02-2015:05:24] [ INFO ] [TestLog:7] Empezamos nuestro metodo MAIN
+[2024-02-2015:05:24] [ ERROR] [TestLog:12] Error por dividir por cero 
+java.lang.ArithmeticException: / by zero
+	at Logger.TestLog.main(TestLog.java:10)
+[2024-02-2015:05:24] [ WARN ] [TestLog:14] Advertencia el metodo MAIN esta por finalizar
+[2024-02-2015:05:24] [ DEBUG] [TestLog:15] Esto va a mostrarse solo si el infoLogger esta en DEBUG
+[2024-02-2015:05:24] [ INFO ] [TestLog:16] Finalizamos el thread MAIN
+[2024-02-2015:06:01] [ INFO ] [Leon:42] El leon Simba esta corriendo
+[2024-02-2015:06:01] [ INFO ] [Leon:42] El leon Bom esta corriendo
+[2024-02-2015:06:01] [ ERROR] [Leon:48] La edad no puede ser negativa
+[2024-02-2015:06:01] [ INFO ] [Tigre:32] El tigreRamon esta corriendo
+[2024-02-2015:06:01] [ INFO ] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-2015:46:39] [ INFO ] [Leon:42] El leon Simba esta corriendo
+[2024-02-2015:46:39] [ INFO ] [Leon:42] El leon Bom esta corriendo
+[2024-02-2015:46:39] [ ERROR] [Leon:49] La edad no puede ser negativa
+[2024-02-2015:46:39] [ ERROR] [Leon:53] La edad del leon Bom es incorrecta
+Logger.NegativeNumberException: La edad no puede ser negativa
+	at Logger.Leon.esMayorA10(Leon.java:50)
+	at Logger.TestAnimal.main(TestAnimal.java:18)
+[2024-02-2015:46:39] [ INFO ] [Tigre:32] El tigreRamon esta corriendo
+[2024-02-2015:46:39] [ INFO ] [Tigre:32] El tigrePepe esta corriendo
