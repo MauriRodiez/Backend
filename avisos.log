@@ -35,3 +35,16 @@ java.lang.ArithmeticException: / by zero
 [2024-02-1912:48:29] [ %-5] [TestAnimal:26] La edad del leon Bom es incorrecta
 [2024-02-1912:48:29] [ %-5] [Tigre:32] El tigreRamon esta corriendo
 [2024-02-1912:48:29] [ %-5] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-1920:27:50] [ %-5] [Leon:42] El leon Simba esta corriendo
+[2024-02-1920:27:50] [ %-5] [Leon:42] El leon Bom esta corriendo
+[2024-02-1920:27:50] [ %-5] [Leon:48] La edad no puede ser negativa
+[2024-02-1920:27:50] [ %-5] [Tigre:32] El tigreRamon esta corriendo
+[2024-02-1920:27:50] [ %-5] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-2020:12:29] [ %-5] [Main:9] Esto es el comienzo de la clase
+[2024-02-2020:13:13] [ INFO ] [Main:9] Esto es el comienzo de la clase
+[2024-02-2020:15:23] [ INFO ] [Main:9] Esto es el comienzo de la clase
+[2024-02-2020:15:23] [ WARN ] [Main:10] Se esta terminando la clase, vamos a las mesas
+[2024-02-2020:17:18] [ INFO ] [Main:10] Esto es el comienzo de la clase
+[2024-02-2020:17:18] [ WARN ] [Main:11] Se esta terminando la clase, vamos a las mesas
+[2024-02-2021:31:14] [ INFO ] [Main:10] Esto es el comienzo de la clase
+[2024-02-2021:31:14] [ WARN ] [Main:11] Se esta terminando la clase, vamos a las mesas
