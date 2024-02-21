@@ -1,8 +1,12 @@
 package Logger;
 
 
+import org.apache.log4j.Logger;
+
 public class TestAnimal {
-    public static void main(String[] args) {
+
+    private static final Logger logger = Logger.getLogger(TestAnimal.class);
+    public static void main(String[] args) throws Exception {
 
         // instancias de Leon
         Leon leon1 = new Leon("Simba",11, true);
@@ -15,7 +19,12 @@ public class TestAnimal {
         // Testear metodos
         leon1.correr();
         leon2.correr();
-        leon2.esMayorA10();
+        try {
+            leon2.esMayorA10();
+        } catch (Exception e){
+            logger.error("La edad del leon " + leon2.getNombre() + " es incorrecta", e);
+        }
+
 
         tigre1.correr();
         tigre2.correr();

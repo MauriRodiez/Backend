@@ -79,3 +79,48 @@ Logger.NegativeNumberException: La edad no puede ser negativa
 [2024-02-2015:46:39] [ INFO ] [Tigre:32] El tigreRamon esta corriendo
 [2024-02-2015:46:39] [ INFO ] [Tigre:32] El tigrePepe esta corriendo
 >>>>>>> 1004f315e7cd01750f232051839fe044932699c6
+[2024-02-2112:08:49] [ INFO ] [Leon:42] El leon Simba esta corriendo
+[2024-02-2112:08:49] [ INFO ] [Leon:42] El leon Bom esta corriendo
+[2024-02-2112:08:49] [ ERROR] [Leon:48] La edad no puede ser negativa
+[2024-02-2112:08:49] [ ERROR] [TestAnimal:25] La edad es incorrecta
+java.lang.Exception: La edad es incorrecta
+	at Logger.Leon.esMayorA10(Leon.java:49)
+	at Logger.TestAnimal.main(TestAnimal.java:23)
+[2024-02-2112:08:49] [ INFO ] [Tigre:32] El tigreRamon esta corriendo
+[2024-02-2112:08:49] [ INFO ] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-2112:10:14] [ INFO ] [Leon:42] El leon Simba esta corriendo
+[2024-02-2112:10:14] [ INFO ] [Leon:42] El leon Bom esta corriendo
+[2024-02-2112:10:14] [ ERROR] [Leon:48] La edad no puede ser negativa
+[2024-02-2112:10:14] [ ERROR] [TestAnimal:25] La edad es incorrecta
+java.lang.Exception: El leon Bom es incorrecta
+	at Logger.Leon.esMayorA10(Leon.java:49)
+	at Logger.TestAnimal.main(TestAnimal.java:23)
+[2024-02-2112:10:14] [ INFO ] [Tigre:32] El tigreRamon esta corriendo
+[2024-02-2112:10:14] [ INFO ] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-2112:11:26] [ INFO ] [Leon:42] El leon Simba esta corriendo
+[2024-02-2112:11:26] [ INFO ] [Leon:42] El leon Bom esta corriendo
+[2024-02-2112:11:26] [ ERROR] [Leon:48] La edad no puede ser negativa
+[2024-02-2112:11:26] [ ERROR] [TestAnimal:25] La edad del leon Bom es incorrecta
+java.lang.Exception: 
+	at Logger.Leon.esMayorA10(Leon.java:49)
+	at Logger.TestAnimal.main(TestAnimal.java:23)
+[2024-02-2112:11:26] [ INFO ] [Tigre:32] El tigreRamon esta corriendo
+[2024-02-2112:11:26] [ INFO ] [Tigre:32] El tigrePepe esta corriendo
+[2024-02-2112:12:15] [ INFO ] [Leon:42] El leon Simba esta corriendo
+[2024-02-2112:12:15] [ INFO ] [Leon:42] El leon Bom esta corriendo
+[2024-02-2112:12:15] [ ERROR] [Leon:48] La edad no puede ser negativa
+[2024-02-2112:12:15] [ ERROR] [TestAnimal:25] La edad del leon Bom es incorrecta
+java.lang.Exception: 
+	at Logger.Leon.esMayorA10(Leon.java:49)
+	at Logger.TestAnimal.main(TestAnimal.java:23)
+[2024-02-2112:12:15] [ INFO ] [Tigre:32] El tigre Ramon esta corriendo
+[2024-02-2112:12:15] [ INFO ] [Tigre:32] El tigre Pepe esta corriendo
+[2024-02-2113:42:16] [ INFO ] [PromedioValores:57] La longitud de la lista es mayor a 5
+[2024-02-2113:45:00] [ INFO ] [PromedioValores:57] La longitud de la lista es mayor a 5
+[2024-02-2113:47:45] [ INFO ] [PromedioValores:60] La longitud de la lista es mayor a 5
+[2024-02-2113:48:37] [ INFO ] [PromedioValores:60] La longitud de la lista es mayor a 5
+[2024-02-2113:48:51] [ INFO ] [PromedioValores:60] La longitud de la lista es mayor a 5
+[2024-02-2113:48:51] [ INFO ] [PromedioValores:65] La longitud de la lista es mayor a 10
+[2024-02-2113:50:13] [ ERROR] [PromedioValores:69] La lista es igual a cero
+[2024-02-2113:50:57] [ INFO ] [PromedioValores:60] La longitud de la lista es mayor a 5
+[2024-02-2113:50:57] [ INFO ] [PromedioValores:65] La longitud de la lista es mayor a 10

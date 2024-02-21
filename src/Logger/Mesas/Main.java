@@ -1,14 +1,28 @@
 package Logger.Mesas;
 
-import org.apache.log4j.Logger;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
-    private static final Logger logger = Logger.getLogger(Main.class);
     public static void main(String[] args) {
 
-        logger.info("Esto es el comienzo de la clase");
-        logger.warn("Se esta terminando la clase, vamos a las mesas");
+        List<Integer> lista = new ArrayList<>();
+
+        PromedioValores listado = new PromedioValores(lista);
+
+        lista.add(20);
+        lista.add(200);
+        lista.add(10);
+        lista.add(8);
+        lista.add(25);
+        lista.add(231);
+        lista.add(12);
+        lista.add(2);
+
+        listado.calcular();
+
+
     }
 
 }

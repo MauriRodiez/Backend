@@ -29,12 +29,12 @@ public class Tigre {
     }
 
     public void correr(){
-        logger.info("El tigre" + this.getNombre() + " esta corriendo");
+        logger.info("El tigre " + this.getNombre() + " esta corriendo");
     }
 
     public void esMayorA10(){
         if(edad > 10){
-            logger.info("El tigre" + this.getNombre() + " tiene mas de 10 años");
+            logger.info("El tigre " + this.getNombre() + " tiene mas de 10 años");
         }
     }
 }

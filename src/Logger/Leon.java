@@ -42,16 +42,12 @@ public class Leon {
         logger.info("El leon " + this.getNombre() + " esta corriendo");
     }
 
-    public void esMayorA10(){
+    public void esMayorA10() throws Exception{
 
-        try {
             if(edad < 0){
                 logger.error("La edad no puede ser negativa");
-                throw new NegativeNumberException("La edad no puede ser negativa");
+                throw new Exception("");
             }
-        } catch (NegativeNumberException e){
-            logger.error("La edad del leon " + this.getNombre() + " es incorrecta", e);
-        }
 
     }
 }
