@@ -44,9 +44,14 @@ public class Leon {
 
     public void esMayorA10(){
 
+        try {
             if(edad < 0){
                 logger.error("La edad no puede ser negativa");
+                throw new NegativeNumberException("La edad no puede ser negativa");
             }
+        } catch (NegativeNumberException e){
+            logger.error("La edad del leon " + this.getNombre() + " es incorrecta", e);
+        }
 
     }
 }
