@@ -179,3 +179,97 @@ UPDATE ODONTOLOGO SET MATRICULA = 124 WHERE ID=2 [90002-214]
 	at org.h2.command.Command.executeQuery(Command.java:190)
 	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:99)
 	at dbH2.Odontologos.main(Odontologos.java:34)
+2024-02-22 14:08:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor Invalido "2" para el parametro "parameterIndex"
+Invalid value "2" for parameter "parameterIndex" [90008-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setInt(JdbcPreparedStatement.java:359)
+	at dbH2.Odontologos.main(Odontologos.java:37)
+2024-02-22 14:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor Invalido "125" para el parametro "parameterIndex"
+Invalid value "125" for parameter "parameterIndex" [90008-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setInt(JdbcPreparedStatement.java:359)
+	at dbH2.Odontologos.main(Odontologos.java:37)
+2024-02-22 14:13:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parametro "#1" no está fijado
+Parameter "#1" is not set; SQL statement:
+UPDATE ODONTOLOGO SET MATRICULA = ? WHERE ID = ? [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:207)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:159)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at dbH2.Odontologos.main(Odontologos.java:38)
+2024-02-22 14:14:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor Invalido "125" para el parametro "parameterIndex"
+Invalid value "125" for parameter "parameterIndex" [90008-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setInt(JdbcPreparedStatement.java:359)
+	at dbH2.Odontologos.main(Odontologos.java:37)
+2024-02-22 14:14:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parametro "#2" no está fijado
+Parameter "#2" is not set; SQL statement:
+UPDATE ODONTOLOGO SET MATRICULA = ? WHERE ID = ? [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:207)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:159)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at dbH2.Odontologos.main(Odontologos.java:38)
+2024-02-22 14:17:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor Invalido "2" para el parametro "parameterIndex"
+Invalid value "2" for parameter "parameterIndex" [90008-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setInt(JdbcPreparedStatement.java:359)
+	at dbH2.Odontologos.main(Odontologos.java:37)
+2024-02-22 14:18:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor Invalido "4" para el parametro "parameterIndex"
+Invalid value "4" for parameter "parameterIndex" [90008-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setInt(JdbcPreparedStatement.java:359)
+	at dbH2.Odontologos.main(Odontologos.java:37)
+2024-02-22 16:18:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parametro "#2" no está fijado
+Parameter "#2" is not set; SQL statement:
+UPDATE PACIENTES SET PASSWORD = ? WHERE ID = ? [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:207)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:159)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at dbH2.Transacciones.TestTransaccion.main(TestTransaccion.java:57)

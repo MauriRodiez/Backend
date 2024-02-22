@@ -14,7 +14,7 @@ public class Empleado {
 
             Statement statement = connection.createStatement();
 
-            statement.execute("DROP TABLE EMPLEADO IF EXISTS; CREATE TABLE EMPLEADO" +
+            statement.execute("DROP TABLE IF EXISTS EMPLEADO; CREATE TABLE EMPLEADO" +
                     "(ID INT PRIMARY KEY, " +
                     "NOMBRE VARCHAR(120) NOT NULL," +
                     "EDAD INT NOT NULL," +

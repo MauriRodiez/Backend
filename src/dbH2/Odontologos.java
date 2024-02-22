@@ -13,7 +13,7 @@ public class Odontologos {
 
             Statement statement = connection.createStatement();
 
-            statement.execute("DROP TABLE ODONTOLOGO IF EXISTS; CREATE TABLE ODONTOLOGO" +
+            statement.execute("DROP TABLE IF EXISTS ODONTOLOGO; CREATE TABLE ODONTOLOGO" +
                     "(ID INT PRIMARY KEY," +
                     "APELLIDO VARCHAR(120) NOT NULL," +
                     "NOMBRE VARCHAR(120) NOT NULL," +
@@ -31,7 +31,17 @@ public class Odontologos {
             }
 
             // Modificar la matricula de un odontologo
-            statement.executeUpdate("UPDATE ODONTOLOGO SET MATRICULA = 124 WHERE ID=2");
+            //statement.executeUpdate("UPDATE ODONTOLOGO SET MATRICULA = 124 WHERE ID=2");
+            // Utilizando update con sentencia parametrizada con prepared statement
+            String uodate= "UPDATE ODONTOLOGO SET MATRICULA = ? WHERE ID = ?";
+            try(PreparedStatement pstmt = connection.prepareStatement(uodate)){
+                pstmt.setInt(1,125);
+                pstmt.setInt(2,2);
+                pstmt.executeUpdate();
+            } catch (SQLException e){
+                e.printStackTrace();
+            }
+
 
             ResultSet rsUpdated = statement.executeQuery("SELECT * FROM ODONTOLOGO");
 
