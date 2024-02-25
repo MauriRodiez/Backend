@@ -124,3 +124,20 @@ java.lang.Exception:
 [2024-02-2113:50:13] [ ERROR] [PromedioValores:69] La lista es igual a cero
 [2024-02-2113:50:57] [ INFO ] [PromedioValores:60] La longitud de la lista es mayor a 5
 [2024-02-2113:50:57] [ INFO ] [PromedioValores:65] La longitud de la lista es mayor a 10
+[2024-02-2414:38:07] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2414:43:24] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2414:44:15] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2414:46:47] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2415:13:24] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2415:20:46] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2415:27:36] [ INFO ] [MedicamentoDAOH2:18] Estamos persistiendo un medicamento
+[2024-02-2416:26:24] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:26:24] [ INFO ] [MedicamentoDAOH2:52] Medicamento encontrado al realizar busqueda por ID
+[2024-02-2416:28:19] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:28:19] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:28:19] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:28:19] [ INFO ] [MedicamentoDAOH2:52] Medicamento encontrado al realizar busqueda por ID
+[2024-02-2416:28:39] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:28:40] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:28:40] [ INFO ] [MedicamentoDAOH2:16] Estamos persistiendo un medicamento
+[2024-02-2416:28:40] [ INFO ] [MedicamentoDAOH2:52] Medicamento encontrado al realizar busqueda por ID

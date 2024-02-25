@@ -33,8 +33,8 @@ public class Odontologos {
             // Modificar la matricula de un odontologo
             //statement.executeUpdate("UPDATE ODONTOLOGO SET MATRICULA = 124 WHERE ID=2");
             // Utilizando update con sentencia parametrizada con prepared statement
-            String uodate= "UPDATE ODONTOLOGO SET MATRICULA = ? WHERE ID = ?";
-            try(PreparedStatement pstmt = connection.prepareStatement(uodate)){
+            String update= "UPDATE ODONTOLOGO SET MATRICULA = ? WHERE ID = ?";
+            try(PreparedStatement pstmt = connection.prepareStatement(update)){
                 pstmt.setInt(1,125);
                 pstmt.setInt(2,2);
                 pstmt.executeUpdate();

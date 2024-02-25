@@ -56,6 +56,8 @@ public class TestTransaccion {
             psUpdate.setString(1, paciente.getPassword());
             psUpdate.setInt(2,1);
             psUpdate.execute();
+
+            //Causar error
             int a = 4/0;
 
             connection.commit();
