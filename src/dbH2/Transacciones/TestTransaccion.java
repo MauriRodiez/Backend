@@ -1,6 +1,5 @@
 package dbH2.Transacciones;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
 public class TestTransaccion {
@@ -40,7 +39,7 @@ public class TestTransaccion {
             psInsert.setString(3, paciente.getApellido());
             psInsert.setString(4, paciente.getDomicilio());
             psInsert.setInt(5, paciente.getDni());
-            psInsert.setDate(6, (Date) paciente.getFechaalta());
+            psInsert.setDate(6, (Date) paciente.getFechaAlta());
             psInsert.setString(7, paciente.getUsuario());
             psInsert.setString(8,paciente.getPassword());
             // ejecuto la insercion

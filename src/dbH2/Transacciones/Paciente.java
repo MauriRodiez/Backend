@@ -9,16 +9,16 @@ public class Paciente {
     private String apellido;
     private String domicilio;
     private Integer dni;
-    private Date fechaalta;
+    private Date fechaAlta;
     private String usuario;
     private String password;
 
-    public Paciente(String nombre, String apellido, String domicilio, Integer dni, Date fechaalta, String usuario, String password) {
+    public Paciente(String nombre, String apellido, String domicilio, Integer dni, Date fechaAlta, String usuario, String password) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.domicilio = domicilio;
         this.dni = dni;
-        this.fechaalta = fechaalta;
+        this.fechaAlta = fechaAlta;
         this.usuario = usuario;
         this.password = password;
     }
@@ -55,12 +55,12 @@ public class Paciente {
         this.dni = dni;
     }
 
-    public Date getFechaalta() {
-        return fechaalta;
+    public Date getFechaAlta() {
+        return fechaAlta;
     }
 
-    public void setFechaalta(Date fechaalta) {
-        this.fechaalta = fechaalta;
+    public void setFechaAlta(Date fechaAlta) {
+        this.fechaAlta = fechaAlta;
     }
 
     public String getUsuario() {
